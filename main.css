@@ -6,6 +6,12 @@
 /*   Whitney   */
 /***************/
 
+@media (min-width: 400px) {
+  .sm\:text-\[12px\] {
+      font-size: 12px;
+  }
+}
+
 @font-face {
   font-family: Whitney;
   font-weight: 300;
