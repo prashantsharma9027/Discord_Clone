@@ -6,6 +6,27 @@
 /*   Whitney   */
 /***************/
 
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+  width: 0px;  /* For Chrome, Safari, and Opera */
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+  width: 0px;  /* For Chrome, Safari, and Opera */
+}
+
+
+
 @media (min-width: 400px) {
   .sm\:text-\[12px\] {
       font-size: 12px;
